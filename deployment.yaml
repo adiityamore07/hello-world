@@ -18,7 +18,7 @@ spec:
       - name: hello-world
         image: 957592003011.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
         ports:
-        - containerPort: 8081
+        - containerPort: 3000
         resources:
           requests:
             cpu: "100m"
